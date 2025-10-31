@@ -1,0 +1,3 @@
+GitHub Actions workflow需要 `EXPO_TOKEN` secrets 用于 EAS CLI 登录。
+在仓库 Settings -> Secrets and variables -> Actions 中新增 `EXPO_TOKEN`，
+值为 `eas token:create` 生成的 Expo Access Token。

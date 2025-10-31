@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -30,7 +32,6 @@
     "plugins": [
       "expo-file-system",
       "expo-image-picker",
-      ["tamagui", { "config": "./tamagui.config.ts" }],
       "react-native-reanimated/plugin"
     ]
   }
